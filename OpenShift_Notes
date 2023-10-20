@@ -1,0 +1,2 @@
+OpenShift - Redhat OpenShift is a enterprise container platform which is build on the top of Kubernetes.
+Container - Containers are application building blocks, which is made into layers. - Base image / image layer1 / image layer2 / image layer3--- for example - Base Ubuntu / OS update layer / jawa runtime layer / application layer.
