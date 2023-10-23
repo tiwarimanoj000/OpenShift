@@ -1,2 +1,15 @@
 OpenShift - Redhat OpenShift is a enterprise container platform which is build on the top of Kubernetes.
 Container - Containers are application building blocks, which is made into layers. - Base image / image layer1 / image layer2 / image layer3--- for example - Base Ubuntu / OS update layer / jawa runtime layer / application layer.
+
+Openshift Features ---- 
+CLI, Webconsole, API
+Operator framework -- with operators we can install and manage kubernetes and its application and services  with a single step actions.
+Full-stack automation -- you can deploy your application by single click or by providing source code repo URL. It will take care of the backend jobs including, building the conatiner image, keeping it on a container ragistery,
+deploying containers, creating services etc.
+Security - in-built rules
+Built-in support for CI-CD.
+
+Archetecture -----
+Managed Openshift Clusters - Managed by RED-HAT and public cloud providers., Limited flexibility.
+Self-Managed Clusters - Customer to design and deploy clusters, customer to manage and maintain clusters, flexible.
+
