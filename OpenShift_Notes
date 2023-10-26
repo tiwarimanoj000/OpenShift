@@ -13,3 +13,121 @@ Archetecture -----
 Managed Openshift Clusters - Managed by RED-HAT and public cloud providers., Limited flexibility.
 Self-Managed Clusters - Customer to design and deploy clusters, customer to manage and maintain clusters, flexible.
 
+
+OpenShift Architecture -----
+Control plane
+Compute nodes
+Infrastructer nodes
+Sample reference architecture
+in the backend we have same kubernetes for orchestration, pod, services etc. Kubernetes is an open source container orchestration system for automating computer application deployment,scalling and management.
+Simple Architecture ---- We hav a bar metal, public cloud or a private cloud. on top of that we have core operating system. on top of that we have kubernetes then the cluster components(networking, router, monitoring, updates,
+rejistry, Helm). then on top of that platform services, application services, and so on.
+
+There are mainly two types of nodes in openshift=------------------
+Control Plane node(master node) and compute nodes(worker nodes).--- end user and application will not be able to deploy their application on master node. master node will control woeker nodes.
+
+There are 4 main components in master node -------
+Kube API-Server
+Kube-Control-Manager
+Kube-Scheduler
+ETCD.
+ALSO THERE ARE SOME OPENSHIFT SERVICES ARE RUNNING -- openshift-apiserver, openshift-control-manager,openshift-OAuth etc.
+Some of the services as systemd like, Kubelet which is used for comnunicating between node and controle plane.
+
+Workernode - It also has similar pods and services running like cluster services,Kube-proxy, Kubelet,Cri-O etc.
+We can also configure dedicated nodes for running infrastructer services like, Router, image registery, logging, monitoring etc.
+
+
+Openshift Operators----------
+Kubernetes operators
+Custom resource definition(CRD)
+Using operators in openshift
+
+An operator is a method of packaging, deploying and managing a kubernetes native-application. All the required automation taken care by operators.
+
+CRD - Kubernetes Resources.             CRD
+Deployments                          Prometheous
+Pods                                 Couchbase
+Configmaps                           Splunk
+Secrates                             Dynatrace
+Services
+Persistent Volumes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
