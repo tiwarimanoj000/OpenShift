@@ -55,6 +55,20 @@ Persistent Volumes
 
 
 
+The difference between OpenShift and Kubernetes
+For all that Kubernetes can do to orchestrate containers, users still need to integrate other components like networking, ingress, load balancing, storage, monitoring, logging, multi cluster management, continuous 
+integration and continuous delivery (CI/CD), and more to accelerate the development and delivery of containerized applications—at scale. Red Hat OpenShift offers these components with Kubernetes at their core because—by
+itself— Kubernetes is not enough
+
+Kubernetes is a container orchestration software that helps users manage clustered groups of hosts running Linux containers.
+
+While Kubernetes is the core kernel, in order to build, deploy, run, and manage containerized applications at scale at 1 location, or in a consistent way across a distributed environment such as on-prem datacenters, 
+public clouds, edge, you need more than just Kubernetes.
+
+Red Hat OpenShift provides a complete solution that includes a stable Kubernetes engine with robust security and many integrated capabilities required to operationalize a complete application platform. It comes in 
+several editions including as a fully managed public cloud service or self-managed on infrastructure across datacenters, public clouds, and edge.
+
+
 
 
 
